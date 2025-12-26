@@ -1,0 +1,28 @@
+# Ignore datasets
+data/raw/*
+data/processed/*
+*.npz
+
+# Keep folder structure
+!data/
+!data/raw/
+!data/raw/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
+
+# Python junk
+__pycache__/
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+
+# Ignore all generated outputs
+outputs/*
+
+# But keep folder structure
+!outputs/
+!outputs/figures/
+!outputs/figures/.gitkeep
+!outputs/results/
+!outputs/results/.gitkeep
