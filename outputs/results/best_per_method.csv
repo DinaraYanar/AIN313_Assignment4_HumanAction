@@ -1,0 +1,3 @@
+method,accuracy,macro_f1,title
+TemporalCNN,0.875,0.8785586497536043,"TemporalCNN ch=(128, 128) k=7 drop=0.2"
+LSTM,0.7583333333333333,0.7583580625621704,LSTM h=128 L=2 bi=True drop=0.0
